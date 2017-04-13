@@ -1,0 +1,25 @@
+$(function(){
+		//$("#pagetwo").load("../html/人人赚/index.html",function(){ $("#pagetwo").fadeIn(100);
+			//$("#pagetwo button").click(function(){
+		//	alert("aa");
+			//})
+		//}
+  // $("#pagetwo").load("",function(){ $("#pagetwo").fadeIn(100);})
+
+   
+   
+    bodyContent = $.ajax({
+        url: "../myweb.html",
+        global: false,
+        type: "POST",
+        data: ({
+            id: this.getAttribute('pagetwo');
+        }),
+        dataType: "html",
+        async: false,
+        success: function(msg) {
+            alert(msg);
+        }
+    })
+   
+   })

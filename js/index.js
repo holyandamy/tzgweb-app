@@ -1,0 +1,142 @@
+$(function(){
+        //人人赚
+			//$('#pagetwo').load('./html/renren/html/index.html',function(str){});
+	    //掌柜吧
+		   //$('#pagezgb').load('./html/掌柜吧/index.html',function(str){});
+
+	var arr=[
+	"img/首页/banner-1.jpg",
+	 "img/首页/banner-2.jpg",
+	" img/首页/banner-3.jpg",
+	" img/首页/banner-4.jpg"
+	 ];
+	 var oimg=document.querySelector(".img");
+	 var oI=oimg.getElementsByTagName("img")[0];
+	 var i=0;
+	 oI.onclick=function(){
+		paly();
+	  }
+	   function paly(){
+		i++;
+		i<arr.length?oI.src=arr[i]:(i=0,oI.src=arr[i]);
+	   }
+	   function autoPlay(){
+	   paly()
+	   }
+	  setInterval(autoPlay,2000);
+
+	//最新拼团红包
+
+	var hImg=[
+	'img/首页/items-6.png',
+	'img/首页/items-6.png'
+	];
+	var hTitle=[
+	'您的好友在这领取了高温补贴'
+	];
+	var hNews=[
+	'红包太多，我一人抢不过完，速来一起抢！'
+	];
+	 var hUl=document.querySelector(".hb");
+	 var hSS=document.querySelector(".pagektsuccess-hb");
+	 var hLi=document.createElement("li");
+	 var hDiv=document.createElement("div");
+	 var hI=document.createElement("img");
+	 var hH3=document.createElement("h2");
+	 var hP2=document.createElement("p");
+	 var hBtn=document.createElement("a");
+	 var hText1=document.createTextNode(hTitle[0]);
+	 var hText2=document.createTextNode(hNews[0]);
+	  var hText3=document.createTextNode("去开团");
+	   hI.className="hbImg";
+	   hDiv.className="hbnews";
+		hH3.appendChild(hText1);
+		hP2.appendChild(hText2);
+		hBtn.appendChild(hText3);
+		hLi.appendChild(hI);
+		hI.setAttribute('src',hImg[0]);
+		hBtn.setAttribute('href',"#pagekaituan");
+		hDiv.appendChild(hH3);
+		hDiv.appendChild(hP2);
+		hDiv.appendChild(hBtn);
+		hLi.appendChild(hDiv);
+		hUl.appendChild(hLi);
+	//邀请好友弹窗
+	$(".dmfriends").click(function(){
+	    $(".tan").fadeIn(500);
+	});
+	 $(".tan span").click(function(){
+	    $(".tan").fadeOut(500);
+	});
+
+	 //分享邀友
+	$(".fxfriends ,.footer-success").click(function(){
+	    $(".fenxiang").fadeIn(500);
+	});
+	$(".fenxiang button ").click(function(){
+	    $(".fenxiang").fadeOut(500);
+	});
+	//确认转入
+	$(".sure").click(function(){
+	  $(".qrzr").fadeIn(500);
+	});
+	 $(".qrzr button ").click(function(){
+	  $(".qrzr").fadeOut(500);
+	});
+	var hb=[
+	"img/首页/items-6.png"
+	];
+	var htit=[
+	'您的好友在这领取了高温补贴'
+	];
+	var hp=[
+	'红包太多，我一人抢不过完，速来一起抢！'
+	];
+	var hm=[
+	'￥5.00红包'
+	];
+	$(".hbkt").html(
+	'<div class="hb"><img src="'
+	+hb[0]+'"/></div>'
+	+'<div class="hb"><h2>'
+	+htit[0]+'</h2><p>'
+	+hp[0]+'</p><div><h3>面额</h3><p class="edu">'
+	+hm[0]+'</p></div><div><h3>3人团</h3><p>￥0.01</p></div></div><div class="hbtime">团购已剩140个|剩余60个<span>6天22小时58分51秒</span></div>'
+	);
+	//掌柜吧
+	var preIndex=0;
+	var currentIndex=0;
+	var zlth=$(".zhb-banner img").length;
+	var timer1=null;
+	$(".zhb-banner img").eq(0).css("display","block");
+	$(".bannerdot ul li").eq(0).addClass("active-zgb");
+	function next(){
+		 var preIndex=currentIndex;
+		 preIndex=++currentIndex % zlth;
+		 $(".zhb-banner img").css("display","none");
+		 $(".bannerdot ul li").removeClass();
+		 $(".bannerdot ul li").eq(preIndex).addClass("active-zgb");
+		 $(".zhb-banner img").eq(preIndex).fadeIn(1000);
+	};
+	timer1=setInterval(next,2000);
+	$(".zhb-banner ").hover(function(){
+		clearInterval(timer1);
+		},function(){
+		timer1=setInterval(next,2000);
+	});
+	$(".bannerdot ul li").hover(function(){
+		var $this=$(this).index()
+		$(".bannerdot ul li").removeClass();
+		$(this).addClass("active-zgb");
+		$(".zhb-banner img").css("display","none");
+		$(".zhb-banner img").eq($this).fadeIn(500);
+	})
+
+
+
+
+
+		
+});
+
+

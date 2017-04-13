@@ -1,0 +1,242 @@
+@media screen and (min-width:320px) and (max-width:375px){html{font-size:12px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:13px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}
+
+
+
+body{font-family:"宋体";color:#eee}
+a{text-decoration:none }
+.ui-content{padding:0}
+.pageone-header{padding:.5rem 0}
+.img img {width:100%}
+.footer2 div a{color:#999}
+.hb,.hb div{
+float:left;
+padding:5px;
+margin-right:2em
+}
+.hb li{padding-left:1em}
+.hbImg,.hbnews{float:left}
+.hbImg{width:7em;}
+.hbnews p{color:#999}
+.hbkt{overflow:hidden;margin:0}
+.main-content  p{color:#5d5d5d}
+.hbtime{clear:left}
+.hbtime span{float:right}
+.tan,.fenxiang,.qrzr{
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+z-index:1;
+background:rgba(127,127,127,.8);
+display:none
+}
+.tan div{
+width:50%;
+padding:3em;
+background:#fff;
+margin:0 auto;
+margin-top:10em;
+position:relative;
+border-radius:1em
+}
+.tan div img{width:100%;}
+.tan div span{
+position:absolute;
+top:1em;
+right:1em;
+cursor:pointer
+}
+.fenxiang-items{
+width:100%;
+position:absolute;
+bottom:0;
+background:#fff
+}
+.fenxiang img{width:100%;}
+.fenxiang{text-align:center}
+#pagehb img{width:100%;}
+.page-header {padding:0 20px}
+.page-header h1 {width:100%;margin:0;padding: .7rem 0;text-align:center;font-size:2rem;color:#338fff;line-height:3rem;}
+.page-header h1 a:nth-child(1){float:left;font-size:2rem;line-height:3rem;color:#272636}
+.page-header h1 a:nth-child(2){float:right;font-size:1.5rem;line-height:3rem;color:#666}
+.pagehb {background:url("img/人人赚/1.png")}
+.pagektsuccess{
+text-align:center;
+padding:2em 0 2em 0
+}
+.footer-success{
+background:#338fff;
+color:#fff;
+padding:2px;
+text-align:center;
+font-size:1.5em
+}
+.miane,.kt{display:inline-block;float:left}
+.miane{
+width:20%;
+color:#fd6721;
+text-align:center
+}
+.miane h4,.miane p,.edu{color:#fd6721;}
+.kt{
+width:80%;
+background:#338fff;
+text-align:center
+}
+.kt h4,.kt p{color:#fff;}
+.tlc {font-size:2em;padding:1em}
+.tlc span{float:right}
+.ktgz{padding:1em;}
+.ktgz .ui-grid-b{padding:2em 0;}
+.ktgz  span{
+font-size:20px;
+padding:1em;
+border:1px dotted gray;
+border-radius:100px
+}
+/*我参加的团*/
+.myjoin-nav{
+font-size:1.5em;
+text-align:center;
+border-bottom:1px solid #999
+}
+.myjoin-footer{
+width:100%;
+position:absolute;
+bottom:0;
+left:0
+}
+/*掌柜吧*/
+.ui-header .ui-title{margin:0;}
+.pagezgb-header h1{margin:0;font-size:1.2rem;}
+.pagezgb-header h1 a:nth-child(2){font-size:1rem;}
+.zhb-banner {
+position:relative
+}
+.zhb-banner img{
+width:100%;
+display:none
+}
+.bannerdot{
+position:absolute;
+right:20px;
+bottom:0;
+z-index:1;
+}
+.bannerdot ul{
+margin:0
+}
+.bannerdot ul li{
+width:10px;
+height:10px;
+border-radius:10px;
+display:inline-block;
+background:#000;
+margin:2px;
+}
+.bannerdot ul li.active-zgb{
+background:#fff 
+}
+.zgb-news{
+background:#fff;
+}
+.zgb-news a{
+color:#333333
+}
+.zgb-news img{
+width:50%;
+}
+.zgb-items {
+text-align:center
+}
+.zgb-hot{
+margin:20px 0;
+padding:0 20px;
+background:#fff;
+overflow:hidden
+}
+.zgb-hot div{float:left}
+.zgb-hot-a{width:80%}
+.zgb-hot-b{width:20%}
+.liuyan,.eyes{width:40px;height:20px;display:inline-block}
+.liuyan{background:url("./img/掌柜吧/images/liuyan.png") no-repeat -44px 0px}
+.eyes{background:url("./img/掌柜吧/images/liuyan.png") no-repeat }
+/*掌柜快报*/
+.zgkb-news ul li{
+width:32%;
+display:inline-block
+}
+.zgkb-news ul li img{
+width:100%;
+}
+/*论坛发帖*/
+.pagefatie-nav h3{text-align:center}
+.footer-fatie{
+background:#1992f5;
+padding:1px;
+color:#fff;
+text-align:center
+}
+/*铜钱宝*/
+.tqb-footer h3{
+text-align:center;
+border:1px solid #338fff;
+color:#338fff;
+margin:20px;
+padding:5px;
+border-radius:20px
+}
+.pagetqb-monery,#pagetqb.header{
+background:#fd661f
+}
+.tqb-footer h3.tqb-active{
+border:1px solid #fd661f;
+color:#fff;
+background:#fd661f
+}
+.pagetqb-monery div{
+padding:30px 0 20px 0;
+text-align:center;
+color:#fff
+}
+.tqb-sy {
+text-align:center;
+}
+.tqb-sy h3 {
+color:#fd661f
+}
+.tqb-help,.tqb-m{
+border:1px solid #fff;
+display:inline-block
+}
+.tqb-help{border-radius:10px;padding:0 6px}
+.tqb-m{border-radius:5px}
+.tqb-prev{float:left;font-size:2em}
+.tqb-help,.tqb-m{
+float:right;
+margin:5px;
+
+}
+/*canvas{
+background-color:white;
+position:absolute;
+top:50%;
+left:50%;
+margin-left:-350px;
+margin-top:-250px;
+box-shadow: 3px 3px 3px #7e7a7c;
+}*/
+canvas{
+width:100%
+}
+.canvas{width:90%;margin:0 auto}
+/*铜钱宝转入*/
+.qrzr-items{
+height:60%;
+}

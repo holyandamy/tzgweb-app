@@ -1,0 +1,36 @@
+<!--铜钱宝-->
+<div id="tongqianbao">
+	 <div data-role="header" class="header" style="background:#fd661f;color:#fff">
+		<a href="#pageone" data-transition="turn" style="background:#fd661f;color:#fff;border:none;box-shadow:none">
+			<span class="tqb-prev">&gt;</span>
+		</a>
+		<span class="tqb-help">i</span>
+		<span class="tqb-m">￥</span>
+		<h1>铜钱宝</h1>
+	  </div>
+
+	  <div data-role="main" class="ui-content" style="position:relative">
+	  <div class="pagetqb-monery">
+					<div>
+						<h1>90607034.00</h1>
+						<p>总金额(元)</p>
+					</div>
+			  </div>
+		  <div class="ui-grid-b tqb-sy">
+					<div class="ui-block-a" ><h3>0.00</h3><p>昨日收益(元)</p></div>
+					<div class="ui-block-b" ><h3>0.00</h3><p>累计收益(元)</p></div>
+					<div class="ui-block-c" ><h3>1.64</h3><p>万份收益(元)</p></div>
+			   </div>
+			  <div class="canvas ">
+				  <h3>年化收益走势图(%)</h3>
+				  <canvas width="700" height="400" id="canvas"> </canvas>
+			  </div>
+	  </div>
+		  <div data-role="footer " class="tqb-footer" >
+			 <div class="ui-grid-a ">
+					<div class="ui-block-a" ><a href="#pagetqb-zr" data-transition="pop"><h3>转入</h3></a></div>
+					<div class="ui-block-b" ><a href="#" ><h3 class="tqb-active">转出</h3></a></div>
+			 </div>
+		  </div>
+	  </div>
+</div>
