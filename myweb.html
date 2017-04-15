@@ -17,7 +17,7 @@
 .ui-grid-a{text-align:center}
 </style>
 </head>
-<body >
+<body class="body">
 <!--首页-->
 <div data-role="page" id="pageone">
 <!--控制面板-->
@@ -62,7 +62,7 @@
 				  </a>
 			  </div>
 			  <div class="ui-block-d" style="border:1px solid #eee;text-align:center">
-				  <a href="#" data-transition="pop">
+				  <a href="#pagezxjh" data-transition="pop">
 					  <img src="img/首页/items-4.png"/>
 					  <p>掌薪计划</p>
 				  </a>
@@ -70,35 +70,35 @@
 		</div>
 	   <div class="ui-grid-c">
 		  <div class="ui-block-a" style="border:1px solid #eee;text-align:center">
-			  <a href="#" data-transition="pop">
+			  <a href="#pagejfsc" data-transition="pop">
 				  <img src="img/首页/items-5.png"/>
 				  <p>积分商城</p>
 			  </a>
 		  </div>
 		  <div class="ui-block-b" style="border:1px solid #eee;text-align:center">
-			  <a href="#" data-transition="pop">
+			  <a href="#pagesonghb" data-transition="pop">
 				  <img src="img/首页/items-6.png"/>
 				  <p>送红包</p>
 			  </a>
 		  </div>
 		  <div class="ui-block-c" style="border:1px solid #eee;text-align:center">
-			  <a href="#" data-transition="pop">
+			  <a href="#pagehytq" data-transition="pop">
 				  <img src="img/首页/items-7.png"/>
 				  <p>会员特权</p>
 			  </a>
 		  </div>
 		  <div class="ui-block-d" style="border:1px solid #eee;text-align:center">
-			  <a href="#" data-transition="pop">
+			  <a href="#pageaqbz" data-transition="pop">
 				  <img src="img/首页/items-8.png"/>
 				  <p>安全保障</p>
 			  </a>
 		  </div>
 		</div>
  </div>
- <div data-role="main" class="ui-content "  >
+ <div data-role="main" class="ui-content news-dt"  >
   <h2>最新动态</h2>
     <ul data-role="listview">
-      <li><a href="#">列表项列表项列表项列表项</a></li>
+      <li><a href="#">列表项</a></li>
       <li><a href="#">列表项</a></li>
       <li><a href="#">列表项</a></li>
     </ul>
@@ -106,14 +106,7 @@
 <div data-role="main" class="ui-content tt">
   <a href="#pagetwo" data-transition="slide">弹出第二个页面</a>
     <p>产品展示:</p>
-    <div class="ui-grid-a">
-      <div class="ui-block-a" style="border:1px solid #eee;"><img src="img/首页/banner-1.jpg"/><p>一些文本</p></div>
-      <div class="ui-block-b" style="border:1px solid #eee;"><img src="img/首页/banner-2.jpg"/><p>一些文本</p></div>
-    </div>
-<div class="ui-grid-a">
-      <div class="ui-block-a" style="border:1px solid #eee;"><img src="img/首页/banner-3.jpg"/><p>一些文本</p></div>
-      <div class="ui-block-b" style="border:1px solid #eee;"><img src="img/首页/banner-4.jpg"/><p>一些文本</p></div>
-    </div>
+
 	<div class="ui-grid-a">
       <div class="ui-block-a" style="border:1px solid #eee;"><img src="img/首页/items-5.png"/><p>一些文本</p></div>
       <div class="ui-block-b" style="border:1px solid #eee;"><img src="img/首页/items-6.png"/><p>一些文本</p></div>
@@ -150,10 +143,12 @@
 </div> 
 <!--人人赚 -->
  <div data-role="page" id="pagetwo" >
-    <div data-role="header">
-  <a href="#pageone" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left">上一页</a>
-    <h1>人人赚 </h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left">我的佣金</a>
+    <div data-role="header" class="page-header pagezgb-header">
+    <h1>
+	     <a href="#pageone" class="" data-transition="turn"> &lt;</a>
+		<a href="#" class="">我的佣金</a>
+	    人人赚 
+	</h1>
   </div>
   <div data-role="main" class="ui-content img">
        <img src="img/首页/banner-1.jpg"/>
@@ -162,19 +157,19 @@
   <h3>人人拼团 </h3>
 	<div class="ui-grid-b">
 		  <div class="ui-block-a" style="border:1px solid #eee;text-align:center">
-			  <a href="#zxpt" data-transition="pop">
+			  <a href="#zxpt" data-transition="slide">
 				  <img src="img/首页/items-3.png"/>
 				  <p>最新拼团</p>
 			  </a>
 		  </div>
 		  <div class="ui-block-b" style="border:1px solid #eee;text-align:center">
-			  <a href="#pagekaituan" data-transition="pop">
+			  <a href="#pagekaituan" data-transition="slide">
 				  <img src="img/首页/items-7.png"/>
 				  <p>我的开团</p>
 			  </a>
 		  </div>
 		  <div class="ui-block-c" style="border:1px solid #eee;text-align:center">
-			  <a href="#zxpt" data-transition="pop">
+			  <a href="#zxpt" data-transition="slide">
 				  <img src="img/首页/items-8.png"/>
 				  <p>我参加的团</p>
 			  </a>
@@ -183,7 +178,7 @@
    <h3>人人邀友 </h3>
    <div class="ui-grid-b">
 		  <div class="ui-block-a" style="border:1px solid #eee;text-align:center">
-			  <a href="#pagehb" data-transition="pop">
+			  <a href="#pagehb" data-transition="slide">
 				  <img src="img/首页/items-6.png"/>
 				  <p>红包邀友</p>
 			  </a>
@@ -262,10 +257,13 @@
 </div>
 <!--最新拼团-->
 <div data-role="page" id="zxpt" >
-  <div data-role="header" data-theme="c">
-    <a href="#pagetwo" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>人人拼团</h1>
-	<a href="#">我的订单</a>
+  <div data-role="header"  class="page-header pagezgb-header">
+    <h1>
+	     <a href="#pagetwo"  data-transition="turn">&lt;</a>
+		 <a href="#">我的订单</a>
+	人人拼团
+	    
+	</h1>
   </div>
   <div data-role="main" class="ui-content" style="background:#fff ;color:#333">
 		<div class="ui-grid-b">
@@ -284,9 +282,11 @@
 </div>
 <!--我的开团-->
 <div data-role="page" id="pagemytuan" >
-  <div data-role="header">
-   <a href="#pagetwo" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>我的开团</h1>
+  <div data-role="header" class="page-header pagezgb-header">
+    <h1>
+	    <a href="#pagetwo"  data-transition="turn">&lt;</a>
+	     我的开团
+	</h1>
   </div>
   <div data-role="main" class="ui-content pagehb">
     <p>点击链接返回上一个页面。<b>注意</b>: fade（淡入）效果是默认的</p>
@@ -296,11 +296,13 @@
     <h1>底部文本</h1>
   </div>
 </div>
-<!--开团-->
+<!--我的开团-->
 <div data-role="page" id="pagekaituan" >
-  <div data-role="header">
-   <a href="#pagetwo" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>开团</h1>
+  <div data-role="header" class="page-header pagezgb-header">
+	   <h1>
+			<a href="#pagetwo"  data-transition="turn">&lt;</a>
+			 我的开团
+		</h1>
   </div>
   <div data-role="main" class="ui-content ">
       <ul class="hbkt"></ul>
@@ -327,9 +329,11 @@
 </div>
 <!--开团成功-->
 <div data-role="page" id="pagektsuccess" >
-  <div data-role="header">
-  <a href="#pagekaituan" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>开团成功</h1>
+  <div data-role="header" class="page-header pagezgb-header">
+	   <h1>
+			<a href="#pagekaituan"  data-transition="turn">&lt;</a>
+			 开团成功
+		</h1>
   </div>
   <div data-role="main" class="ui-content pagektsuccess">
   <img src="img/人人赚/success.png"/>
@@ -413,9 +417,11 @@
 </div>
 <!--红包邀友-->
 <div data-role="page" id="pagehb" >
-  <div data-role="header">
-   <a href="#pagetwo" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>红包邀友</h1>
+  <div data-role="header" class="page-header pagezgb-header">
+	   <h1>
+			<a href="#pagetwo"  data-transition="turn">&lt;</a>
+			 红包邀友
+		</h1>
   </div>
   <div data-role="main" class="ui-content pagehb">
     <img src="img/人人赚/红包邀友1.jpg"/>
@@ -430,14 +436,13 @@
 </div>
 <!--掌柜吧-->
 <div data-role="page" id="pagezgb" >
-     <div data-role="header"  class="page-header pagezgb-header"> 
-    <h1>
-        <a href="#pageone" class="" data-transition="turn"> &lt;</a>
-		<a href="#" class="">分享</a>
-	      理财社区-掌柜吧-掌柜投..
-	</h1>
-	
-  </div>
+    <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pageone" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-掌柜吧-掌柜投..
+		</h1>
+     </div>
   <div data-role="main" class="ui-content zgb">
     <div class="zhb-banner">
 	   <img src="img/掌柜吧/images/banner1.jpg"/>
@@ -640,11 +645,13 @@
 </div>
 <!--论坛公告-->
 <div data-role="page" id="pageltgg" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-论坛公告-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+      <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-论坛公告-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -782,11 +789,13 @@
 </div>
 <!--平台互动-->
 <div data-role="page" id="pagepthd" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-平台动态-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+     <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-平台动态-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>平台动态...</h3>
@@ -925,11 +934,13 @@
 </div>
 <!--掌柜快报-->
 <div data-role="page" id="pagezgkb" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-论坛快报-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+   <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-论坛快报-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1054,11 +1065,13 @@
 </div>
 <!--新人专区-->
 <div data-role="page" id="pagexrzq" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-新人专区-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+   <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-新人专区-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1193,11 +1206,13 @@
 </div>
 <!--掌柜学堂-->
 <div data-role="page" id="pagezgxt" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-掌柜学堂-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+     <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-掌柜学堂-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1332,11 +1347,13 @@
 </div>
 <!--投资会所-->
 <div data-role="page" id="pagetzhs" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-投资会所-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+     <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-投资会所-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1471,11 +1488,13 @@
 </div>
 <!--理财生活-->
 <div data-role="page" id="pagelcsh" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-理财生活-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+    <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-理财生活-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1610,11 +1629,13 @@
 </div>
 <!--活动专区-->
 <div data-role="page" id="pagehdzq" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-活动专区-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+     <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-活动专区-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1749,11 +1770,13 @@
 </div>
 <!--有奖话题-->
 <div data-role="page" id="pageyjht" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-有奖话题-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+     <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-有奖话题-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -1888,11 +1911,13 @@
 </div>
 <!--疑问求助-->
 <div data-role="page" id="pageywqz" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-疑问求助-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+   <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-疑问求助-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -2027,11 +2052,13 @@
 </div>
 <!--建言献策-->
 <div data-role="page" id="pagejyxc" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-建言献策-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+  <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-建言献策-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>理财社区...</h3>
@@ -2167,11 +2194,13 @@
 </div>
 <!--版权专区-->
 <div data-role="page" id="pagebqzq" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>理财社区-版权专区-掌柜吧..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+    <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  理财社区-版权专区-掌柜吧..
+		</h1>
+     </div>
     <div class="ui-grid-a">
 		  <div class="ui-block-a" style="text-align:center ">
 		     <h3>版权专区...</h3>
@@ -2308,11 +2337,13 @@
 </div>
 <!--论坛发帖-->
 <div data-role="page" id="pagefatie" >
-  <div data-role="header">
-   <a href="#pagezgb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>阿蛋的好友-掌柜吧-手机版..</h1>
-	<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-grid ui-btn-icon-left">分享</a>
-  </div>
+  <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagezgb" class="" data-transition="turn"> &lt;</a>
+			<a href="#" class="">分享</a>
+			  阿蛋的好友-掌柜吧-手机版..
+		</h1>
+     </div>
   <div data-role="main" class="ui-content">
         <div class="ui-grid-b pagefatie-nav">
 			<div class="ui-block-a" ><h3>帖子</h3></div>
@@ -2336,15 +2367,14 @@
 </div>
 <!--铜钱宝-->
 <div data-role="page" id="pagetqb" >
-    <div id="tongqianbao">
-	 <div data-role="header" class="header" style="background:#fd661f;color:#fff">
-		<a href="#pageone" data-transition="turn" style="background:#fd661f;color:#fff;border:none;box-shadow:none">
-			<span class="tqb-prev">&lt;</span>
-		</a>
-		<span class="tqb-help">i</span>
-		<span class="tqb-m">￥</span>
-		<h1>铜钱宝</h1>
-	  </div>
+	 <div data-role="header" class="page-header pageyxb-header" >
+	 		<h1 >
+				<a href="#pageone" class="" data-transition="turn"> &lt;</a>
+				<span class="tqb-help">i</span>
+				<span class="tqb-m">￥</span>
+				铜钱宝
+			</h1>
+	</div>
 
 	  <div data-role="main" class="ui-content" style="position:relative">
 	  <div class="pagetqb-monery">
@@ -2369,17 +2399,18 @@
 					<div class="ui-block-b" ><a href="#" ><h3 class="tqb-active">转出</h3></a></div>
 			 </div>
 		  </div>
-	  </div>
 </div>
 
 <!--   <script>$('#pagetqb').load('./html/铜钱宝/tqb.html',function(str){});</script> -->
 </div>
 <!--铜钱宝转入-->
 <div data-role="page" id="pagetqb-zr" >
-  <div data-role="header">
-   <a href="#pagetqb" class="ui-btn ui-corner-all ui-shadow ui-icon-carat-l ui-btn-icon-left" data-transition="turn">上一页</a>
-    <h1>转入</h1>
-  </div>
+  <div data-role="header"  class="page-header pagezgb-header"> 
+		<h1>
+			<a href="#pagetqb" class="" data-transition="turn"> &lt;</a>
+			  转入
+		</h1>
+     </div>
   <div data-role="main" class="ui-content">
     <div class="zgb-hot">
 		  <div class="zgb-hot-a" >
@@ -2434,24 +2465,525 @@
     <h1 class="sure">确定</h1>
   </div>
 </div>
+<!--掌薪计划-->
+<div data-role="page" id="pagezxjh" >
+	    <div data-role="header" class="page-header zxjh-header">
+		    <h1> <a href="#pageone" class="" data-transition="turn"> &lt;</a>掌薪计划</h1>
+	    </div>
+		<div data-role="main" class="ui-content">
+			<div class="product">
+				<div class="product-header"><a href="#pageyxb" data-transition="slide">月薪宝</a></div>
+				<div class="product-content">
+					<div class="ui-grid-b">
+						  <div class="ui-block-a" ><h2>10.00%</h2><p>最高年利率</p></div>
+						  <div class="ui-block-b" ><h2>30天</h2><p>锁定周期</p></div>
+						  <div class="ui-block-c" ><h2>---</h2><p>已投100%</p></div>
+					  </div>
+				</div>
+				  <div class="product-footer"><p>最长投资期限180天</p></div>
+			</div>
+			<div class="product">
+				<div class="product-header"><a href="#pagedjb">冬季宝</a></div>
+				  <div class="product-content">
+					    <div class="ui-grid-b">
+						  <div class="ui-block-a" ><h2>11.80%</h2><p>最高年利率</p></div>
+						  <div class="ui-block-b" ><h2>90天</h2><p>锁定周期</p></div>
+						  <div class="ui-block-c" ><h2>---</h2><p>已投100%</p></div>
+					   </div>
+				   </div>
+				   <div class="product-footer"><p>最长投资期限360天</p></div>
+			</div>
 
+		<p>点击链接返回上一个页面。<b>注意</b>: fade（淡入）效果是默认的</p>
+		<a href="#pageone">返回第一个页面</a>
+	 </div>
+  <!-- <div data-role="footer">
+    <h1>底部文本</h1>
+  </div> -->
+</div>
+<!--月薪宝-->
+ <div data-role="page"  id="pageyxb">
+	<div data-role="header" class="page-header pageyxb-header" >
+	 		<h1 >
+				<a href="#pagezxjh" class="" data-transition="turn"> &lt;</a>
+				<span class="tqb-help">i</span>
+				<span class="tqb-m">￥</span>
+				月薪宝
+			</h1>
+	</div>
+	 
+	  <div data-role="main" class="ui-content" style="position:relative">
+	        <div class="pageyxb-monery">
+	 			   <div>
+	 						<h1>8.00%~10.00%</h1>
+	 						<p>年利率</p>
+	 			   </div>
+	 		</div>
+	 					<div class="pageyxb-touzi">
+	 		   <div class="ui-grid-b tqb-sy">
+	 					<div class="ui-block-a" ><h3>100.00</h3><p>起投金额(元)</p></div>
+	 					<div class="ui-block-b" ><h3>100.00</h3><p>递增金额(元)</p></div>
+	 					<div class="ui-block-c" ><h3>180.00</h3><p>最长期限(天)</p></div>
+	 			</div>
+				
+				<div class="ui-grid-b tqb-sy">
+				        <div class="pageyxb-tzjindu"></div>
+	 					<div class="ui-block-a" ><p>已投资100%</p></div>
+	 					<div class="ui-block-b" ><p></p></div>
+	 					<div class="ui-block-c" ><p>剩余可投0.00</p></div>
+	 			</div>
+			</div>
+            <div class="pageyxb-news">
+				    <ul>
+					    <li>起息日<span>2017-3-14</span></li>
+						<li>到息日<span>2017-4-14</span></li>
+						<li>锁定周期<span>90天</span></li>
+						<li>还款方式<span>到期还本付息</span></li>
+					</ul>
+			</div>
+
+	 			  <div class="canvas ">
+	 				  <h3>年化收益走势图(%)</h3>
+	 				  <canvas width="700" height="400" id="canvas"> </canvas>
+	 			  </div>
+	      </div>
+	 		  <div data-role="footer " class="pageyxb-footer">
+			    已结束
+	 		  </div>
+	    </div>  
+</div>
+<!--季薪宝-->
+ <div data-role="page"  id="pagedjb">
+	<div data-role="header" class="page-header pageyxb-header">
+	 		<h1>
+				<a href="#pagezxjh" class="" data-transition="turn"> &lt;</a>
+				<span class="tqb-help">i</span>
+				<span class="tqb-m">￥</span>
+				季薪宝
+			</h1>
+	  </div>
+	  <div data-role="main" class="ui-content" style="position:relative">
+	        <div class="pageyxb-monery">
+	 			   <div>
+	 						<h1>8.80%~11.80%</h1>
+	 						<p>年利率</p>
+	 				</div>
+	 		</div>
+			<div class="pageyxb-touzi">
+	 		   <div class="ui-grid-b tqb-sy">
+	 					<div class="ui-block-a" ><h3>100.00</h3><p>起投金额(元)</p></div>
+	 					<div class="ui-block-b" ><h3>100.00</h3><p>递增金额(元)</p></div>
+	 					<div class="ui-block-c" ><h3>180.00</h3><p>最长期限(天)</p></div>
+	 			</div>
+				
+				<div class="ui-grid-b tqb-sy">
+				        <div class="pageyxb-tzjindu"></div>
+	 					<div class="ui-block-a" ><p>已投资100%</p></div>
+	 					<div class="ui-block-b" ><p></p></div>
+	 					<div class="ui-block-c" ><p>剩余可投0.00</p></div>
+	 			</div>
+			</div>
+            <div class="pageyxb-news">
+				    <ul>
+					    <li>起息日<span>2017-3-14</span></li>
+						<li>到息日<span>2017-4-14</span></li>
+						<li>锁定周期<span>90天</span></li>
+						<li>还款方式<span>到期还本付息</span></li>
+					</ul>
+			</div>
+	 			  <div class="canvas ">
+	 				  <h3>年化收益走势图(%)</h3>
+	 				  <canvas width="700" height="400" > </canvas>
+	 			  </div>
+	      </div>
+	 		  <div data-role="footer " class="pageyxb-footer">
+			  已结束
+	 		  </div>
+	    </div>  
+</div>
+<!--积分商城 -->
+ <div data-role="page" id="pagejfsc" >
+    <div data-role="header" class="page-header pagezgb-header">
+		<h1>
+			 <a href="#pageone" class="" data-transition="turn"> &lt;</a>
+			积分商城
+		</h1>
+  </div>
+  <div data-role="main" class="ui-content main-content">
+      <div data-role="main" class="img">
+        <img src="img/首页/积分商城.jpg"/>
+     </div>
+     <div class="jfdh"><i></i>我的积分<b>20</b><span>兑换记录</span></div>
+	 <div class="jfdh-jiangpin">
+	  <h3>红包</h3>
+		<div class="ui-grid-a jfsc-hb">
+			<div class="ui-block-a " style="border:1px solid #eee;">
+				  <a href="#pagespmx" data-transition="slide">
+					  <img src="img/积分商城/images/hb.png"/>
+                      <p>5元红包<br/><strong>1500积分</strong></p>
+				  </a>
+			  </div>
+			  <div class="ui-block-b" style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/hb.png"/>
+					  <p>10元红包<br/><strong>3000积分</strong></p>
+				  </a>
+			  </div>
+		</div>
+	</div>
+	 <div class="jfdh-jiangpin">
+		<div class="ui-grid-a jfsc-hb">
+			<div class="ui-block-a " style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/hb.png"/>
+                      <p>20元红包<br/><strong>6000积分</strong></p>
+				  </a>
+			  </div>
+			  <div class="ui-block-b" style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/hb.png"/>
+					  <p>50元红包<br/><strong>15000积分</strong></p>
+				  </a>
+			  </div>
+		</div>
+	</div>
+	<div class="jfdh-jiangpin">
+        <h3>加息券</h3>
+		<div class="ui-grid-a jfsc-hb">
+			<div class="ui-block-a " style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/liquan.png"/>
+                      <p>0.1加息券<br/><strong>6000积分</strong></p>
+				  </a>
+			  </div>
+			  <div class="ui-block-b" style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/liquan.png"/>
+					  <p>0.2加息券<br/><strong>15000积分</strong></p>
+				  </a>
+			  </div>
+		</div>
+	</div>
+    <div class="jfdh-jiangpin">
+		<div class="ui-grid-a jfsc-hb">
+			<div class="ui-block-a " style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/liquan.png"/>
+                      <p>0.1加息券<br/><strong>6000积分</strong></p>
+				  </a>
+			  </div>
+			  <div class="ui-block-b" style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/liquan.png"/>
+					  <p>0.2加息券<br/><strong>15000积分</strong></p>
+				  </a>
+			  </div>
+		</div>
+	</div>
+	<div class="jfdh-jiangpin">
+        <h3>礼品兑换</h3>
+		<div class="ui-grid-a jfsc-hb">
+			<div class="ui-block-a " style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/lipin.png"/>
+                      <p>【2周年庆】铜猫<br/><strong>6700积分</strong></p>
+				  </a>
+			  </div>
+			  <div class="ui-block-b" style="border:1px solid #eee;">
+				  <a href="#" data-transition="slide">
+					  <img src="img/积分商城/images/lipin.png"/>
+					  <p>铜猫公仔<br/><strong>15000积分</strong></p>
+				  </a>
+			  </div>
+		</div>
+	</div>
+    <a href="#pagethree" data-transition="slide">第三个页面</a>
+</div>
+<!--   <div data-role="footer" >
+  		 <div class="ui-grid-a footer2">
+  			  <div class="ui-block-a" style="border:1px solid #eee;text-align:center;font-size:2em;padding:5px">
+  			     <a href="#pagetwo" style="color:#999">人人赚</a>
+  			  </div>
+  			  <div class="ui-block-b" style="border:1px solid #eee;text-align:center;font-size:2em;padding:5px">
+  			     <a href="#pagetwo"  style="color:#338fff">人人拼团</a>
+  			  </div>
+  		</div>
+  </div>-->
+   </div>
+   <!--商品明细 -->
+ <div data-role="page" id="pagespmx" >
+      <div data-role="header" class="page-header pagezgb-header">
+		<h1>
+			 <a href="#pagejfsc" class="" data-transition="turn"> &lt;</a>
+			商品明细
+		</h1>
+      </div>
+     <div data-role="main" class="ui-content main-content">
+       <div data-role="main" class="img">
+        <img src="img/首页/积分商城.jpg"/>
+      </div>
+    	  <div class="pagespmx-hb">
+      <img src="img/积分商城/images/hb.png"/>
+    	  <p>5元红包</p>
+    	  </div>
+    	  
+      <div class="jfdh"><i></i>单价<b>1500积分</b><span>我的积分:&nbsp;20</span></div>
+    	  <div class="spmx">
+    		<div class="ui-grid-a">
+    			<div class="ui-block-a" ><h2> 数量</h2></div>
+    			<div class="ui-block-b" >
+    			    <div class="ui-grid-b">
+    					<div class="ui-block-a minus" >-</div>
+    					<div class="ui-block-b" ><input type="text" value="1" step="1"></div>
+    					<div class="ui-block-c add" >+</div>
+    				</div>
+    			</div>
+    		</div>
+    	  </div>
+    	  <div class="pagespmx-introduct">
+    	     <h2>商品详情</h2>
+    		 <ul>
+    		    <li>商品名称:5元红包</li>
+    			<li>商品有效期：</li>
+    			<li>
+    			   <dl>
+    			        <dt>使用方法</dt>
+    					<dd>使用于15天内有效期</dd>
+    				    <dd>使用于15天内有效期</dd>
+    				    <dd>使用于15天内有效期</dd>
+    				    <dd>使用于15天内有效期</dd>
+    					<dd>使用于15天内有效期</dd>
+    					<dd>使用于15天内有效期</dd>
+    					<dd>使用于15天内有效期</dd>
+    					<dd>使用于15天内有效期</dd>
+    			   </dl>
+    			</li>
+    			<li><b>兑奖规则</b>商品已经兑换:一律不退换积分</li>
+    			<li>铜掌柜拥有本次商品的解释权</li>
+    			<li>如有疑问请联系：88888888</li>
+    			<li>工作日:8:30--20:00</li>
+    		 </ul>
+    	   </div>
+    </div>
+     <div  class="pagespmx-footer" >
+        <p>立即兑换</p>
+     </div> 
+	</div>
+	  <!--送红包 -->
+<div data-role="page" id="pagesonghb" >
+      <div data-role="header" class="page-header pagezgb-header">
+ 		<h1>
+ 			 <a href="#pageone" class="" data-transition="turn"> &lt;</a>
+ 			送红包
+ 		</h1>
+      </div>
+     <div data-role="main" class="ui-content main-content">
+ 		   <div data-role="main" class="img">
+ 			   <img src="img/送红包/images/banner1.jpg"/>
+ 		  </div>
+		  <div class="tiyan">
+		    <div class="tiyan-content">
+			    <div class="tiyan-header">
+			        <ul>
+					    <li>第一关</li>
+						<li></li>
+						<li>第二关</li>
+						<li></li>
+						<li>第三关</li>
+						<li></li>
+						<li>第四关</li>
+					</ul>
+			</div>
+			<div class="tiyan-body">
+			     <img src="img/送红包/images/hbzu.png"/>
+				 <p></p>
+				 <button style="">我要体验</button>
+			</div>
+			</div>
+		  </div>
+		<h1 style="border-bottom:1px solid #eee">新手专享</h1>
+		<div class="pagesonghb-zx">
+		    <div class="ui-grid-b">
+	 					<div class="ui-block-a" ><h3>100.00</h3><p>起投金额(元)</p></div>
+	 					<div class="ui-block-b" ><h3>100.00</h3><p>递增金额(元)</p></div>
+	 					<div class="ui-block-c" ><h3>180.00</h3><p>最长期限(天)</p></div>
+	 			</div>
+	    </div>
+ 	</div>
+     <div  class="pagespmx-footer" >
+         <div class="ui-grid-b">
+	 					<div class="ui-block-a" ><span>100.00元起投</span></div>
+	 					<div class="ui-block-b" ></div>
+	 					<div class="ui-block-c" ><i><img src="img/送红包/images/xianjin.png"/></i></div>
+	 	</div>
+     </div>
+ </div>
+   <!--会员特权 -->
+<div data-role="page" id="pagehytq" >
+      <div data-role="header" class="page-header pagezgb-header">
+ 		<h1>
+ 			 <a href="#pageone" class="" data-transition="turn"> &lt;</a>
+ 			送红包
+ 		</h1>
+      </div>
+     <div data-role="main" class="ui-content main-content">
+ 		   <div data-role="main" class="img">
+ 			   <img src="img/会员特权/images/tequan.png"/>
+ 		  </div>
+		<div class="pagehytq-title">
+			成长值:
+			<span class="cz">0</span>
+			,还需100即可获得VIP2特权
+			<a href="#">如何获取</a>
+		</div>
+		<div class="pagehytq-content">
+            <div class="ui-grid-b">
+	 			<div class="ui-block-a" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 			<div class="ui-block-b" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 			<div class="ui-block-c" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 	    </div>
+			<div class="ui-grid-b">
+	 			<div class="ui-block-a" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 			<div class="ui-block-b" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 			<div class="ui-block-c" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 	    </div>
+			<div class="ui-grid-b">
+	 			<div class="ui-block-a" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 			<div class="ui-block-b" >
+					<img src="img/会员特权/images/1.png"/>
+					<h3>积分换礼</h3>
+					<p>商城豪礼随心兑换</p>
+				</div>
+	 			<div class="ui-block-c" >
+					
+				</div>
+	 	    </div>
+		</div>
+ 	</div>
+ </div>
+ <!--安全保障 -->
+<div data-role="page" id="pageaqbz" >
+      <div data-role="header" class="page-header pagezgb-header">
+ 		<h1>
+ 			 <a href="#pageone" class="" data-transition="turn"> &lt;</a>
+ 			安全保障
+ 		</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+	    <div class="pageaqbz-top">钱是无多少，安全无大小</div>
+		<div class="pageaqbz-md">
+		    <div class="pageaqbz-md-div">
+			     <ul>
+				    <li><img src="img/安全保障/images/1.png"/><p>项目安全保障</p></li>
+					<li><img src="img/安全保障/images/2.png"/><p>平台合规保障</p></li>
+					<li><img src="img/安全保障/images/3.png"/><p>资金安全保障</p></li>
+					<li><img src="img/安全保障/images/4.png"/><p>技术保障</p></li>
+				 </ul>
+			</div>
+		</div>
+		<div class="pageaqbz-bottom">
+			<p>
+				2013年8月至今<br/>
+				<strong>500+</strong>
+				万用户的陪伴和信任
+			</p>
+			<p class="pageaqbz-bottom-down">
+			   <a href="#pagexmaqbz"><img src="img/安全保障/images/down.png"/></a>
+			</p>
+		</div>
+ 	  </div>
+ </div>
+  <!--项目安全保障1 -->
+<div data-role="page" id="pagexmaqbz" >
+      <div data-role="header" class="page-header pagezgb-header">
+ 		<h1>
+ 			 <a href="#pageaqbz" class="" data-transition="turn"> &lt;</a>
+ 			安全保障
+ 		</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+	    <div class="pageaqbz-top">项目安全保障，从源头控制风险<p>多维风险管理器</p></div>
+		<div class="pageaqbz-md">
+				  <img src="img/安全保障/images/bz.jpg"/>
+		</div>
+		<div class="pageaqbz-bottom">
+			<p>
+				2013年8月至今<br/>
+				<strong>500+</strong>
+				万用户的陪伴和信任
+			</p>
+			<p class="pageaqbz-bottom-down">
+			  <a href="#pagexmaqbz2"><img src="img/安全保障/images/down1.png"/>
+			</p>
+		</div>
+ 	  </div>
+ </div>
+  <!--项目安全保障 2-->
+<div data-role="page" id="pagexmaqbz2" >
+      <div data-role="header" class="page-header pagezgb-header">
+ 		<h1>
+ 			 <a href="#pageaqbz" class="" data-transition="turn"> &lt;</a>
+ 			安全保障
+ 		</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+	    <div class="pageaqbz-top">项目安全保障，从源头控制风险<p>多维风险管理器</p></div>
+		<div class="pageaqbz-md">
+				  <img src="img/安全保障/images/bz.jpg"/>
+		</div>
+		<div class="pageaqbz-bottom">
+			<p>
+				2013年8月至今<br/>
+				<strong>500+</strong>
+				万用户的陪伴和信任
+			</p>
+			<p class="pageaqbz-bottom-down">
+			   <img src="img/安全保障/images/down1.png"/>
+			</p>
+		</div>
+ 	  </div>
+ </div>
 <!--第三页面-->
 <div data-role="page" id="pagethree" >
-  <div data-role="header">
-    <h1>欢迎来到我的主页</h1>
-  </div>
-  <div data-role="main" class="ui-content">
-     
-
-    <p>点击链接返回上一个页面。<b>注意</b>: fade（淡入）效果是默认的</p>
-    <a href="#pageone">返回第一个页面</a>
-  </div>
-  <div data-role="footer">
-    <h1>底部文本</h1>
-  </div>
+	  <div data-role="header">
+		<h1>欢迎来到我的主页</h1>
+	  </div>
+	  <div data-role="main" class="ui-content">
+		<p>点击链接返回上一个页面。<b>注意</b>: fade（淡入）效果是默认的</p>
+		<a href="#pageone">返回第一个页面</a>
+	  </div>
+	  <div data-role="footer">
+		<h1>底部文本</h1>
+	  </div>
 </div>
-
-
 </body>
 </html>
 
